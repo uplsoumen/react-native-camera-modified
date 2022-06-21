@@ -508,8 +508,8 @@ export default class Camera extends React.Component<PropsType, StateType> {
     this._lastEventsTimes = {};
     this._isMounted = true;
     this.state = {
-      isAuthorized: false,
-      isAuthorizationChecked: false,
+      isAuthorized: true,
+      isAuthorizationChecked: true,
       recordAudioPermissionStatus: RecordAudioPermissionStatusEnum.PENDING_AUTHORIZATION,
     };
   }
